@@ -7,7 +7,7 @@ public class String1 {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter the string");
 		String s= scn.nextLine();
-		String[] s2 = new String[] {s};
+		
 		String s1= new String(s);
 		
 		char c1;
@@ -16,6 +16,7 @@ public class String1 {
 		System.out.println(c);
 		for(int i=0; i<s.length(); i++){
 			System.out.println(c[i]);
+			
 		}
 		
 		for(int i=0; i<s2.length; i++){

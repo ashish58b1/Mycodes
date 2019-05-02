@@ -9,13 +9,9 @@ public class String1 {
 		scn = new Scanner(System.in);
 		System.out.println("Enter the string");
 		String s= scn.nextLine();
-<<<<<<< HEAD
-		//String[] s2 = new String[] {s};
-=======
-		
+
 		String s1= new String(s);
->>>>>>> branch 'master' of https://github.com/ashish58b1/Mycodes.git
-		
+
 		
 		char[] c= s.toCharArray();
 		System.out.println(c);

@@ -30,9 +30,15 @@ public class String1 {
 		System.out.println("---------");
 		for(int i=0; i<s.length(); i++){
 			System.out.println(s.charAt(i));
+			System.out.println("---");
+			System.out.println(s.substring(i));
 		}
 		for(int j=s.length()-1;j>0 ; j--){
 			System.out.println(s.charAt(j));
+			System.out.println("*******");
+			if(Character.isDigit(s.charAt(j))){
+				System.out.println(s.charAt(j));
+			}
 		}
 		
 /*		for(int i=0; i<s2.length; i++){

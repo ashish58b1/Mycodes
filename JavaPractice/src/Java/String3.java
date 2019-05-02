@@ -19,7 +19,7 @@ public class String3 {
 		for(int i=0; i<n.length; i++) {
 			if(n[i]>big)big=n[i];
 		}
-		System.out.println(big);
+		System.out.println("The biggest number is "+big);
 
 	}
 
